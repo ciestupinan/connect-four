@@ -12,17 +12,6 @@ import java.util.*;
 // class Player represents the Blue player, responding to the Red players moves.
 public class Player {
 
-	/* Original Player Class:
-
-	private Random R = new Random(); 
-	public int move(int[][] B) {
-		int m = 0; 
-		do {
-			m = R.nextInt(8);
-		} while(B[0][m] != 0);
-
-		return m; 
-	}*/
 
 	private static int[][] B = new int[8][8];	//board
 
